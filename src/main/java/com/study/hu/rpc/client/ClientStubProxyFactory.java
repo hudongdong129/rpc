@@ -91,5 +91,15 @@ public class ClientStubProxyFactory {
         }
     }
 
+    public void setSid(ServiceInfoDiscoverer sid) {
+        this.sid = sid;
+    }
 
+    public void setSupportMessageProtocols(Map<String, MessageProtocol> supportMessageProtocols) {
+        this.supportMessageProtocols = supportMessageProtocols;
+    }
+
+    public void setNetClient(NetClient netClient) {
+        this.netClient = netClient;
+    }
 }
